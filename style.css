@@ -7,6 +7,10 @@
     box-sizing: border-box;
 }
 
+body{
+    background-color: #000;
+}
+
 ::-webkit-scrollbar{
     width: 6px;
 }
@@ -187,5 +191,94 @@ nav{
     margin-left: 2%;
     
 }
+/* for image slider strat*/
+.slider{
+    width: 100%;
+    height: 100%;
+    /* border: 10px solid red; */
+    overflow: hidden;
+    margin-top: 100px;
+}
+
+.header-02{
+    color: white;
+    text-align: center;
+    font-family: 'Fuzzy Bubbles', cursive;
+    margin-bottom: 10px;
+    box-shadow: 2px 5px 15px lightgrey;
+    letter-spacing: 3px;
+
+
+}
+.header-02::first-letter{
+    font-size: 1.4em;
+    color: red;
+    text-decoration: underline;
+}
+.m-0{
+    font-size: 1.4em;
+    color: red;
+    text-decoration: underline;
+}
+
+
+.header {
+    text-align: center;
+    padding: 32px;
+  }
+  
+  .row {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+  /* Create four equal columns that sits next to each other */
+  .column {
+    -ms-flex: 25%; /* IE10 */
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 800px) {
+    .column {
+      -ms-flex: 50%;
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      -ms-flex: 50%;
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+/* image slider end */
+
+
+/* section 04 er code start*/
+.section-04{
+    width: 100%;
+    height: 100vh;
+}
+
+
+
+
+/* scetion -04 er code end */
 
 
