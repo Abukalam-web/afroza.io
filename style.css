@@ -594,7 +594,14 @@ nav{
     font-size: 1.4rem;
     box-shadow: 3px 3px 10px grey;
     font-family: 'Fuzzy Bubbles', cursive;
+    transition: all 200ms ease-in-out;
 
+}
+
+.link-01 a:hover{
+    box-shadow: none;
+    background-color: antiquewhite;
+    box-shadow: 3px 3px 10px #c8d6e5;
 
 }
 
