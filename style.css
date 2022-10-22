@@ -746,6 +746,11 @@ nav{
 }
 
 
+@media screen and (max-width:  420px){
+.contact-section-01{
+    padding-top: 200px;
+}
+}
 
 @media screen and (max-width:  340px)
 {
@@ -787,3 +792,4 @@ nav{
         padding: 3px;
     }
 }
+
