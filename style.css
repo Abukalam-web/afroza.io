@@ -466,71 +466,317 @@ nav{
 
 
 /* contact info start*/
-.contact-section{
-    height: 100vh;
+
+
+
+
+
+/* contact info start */
+.contact-section-01{
     width: 100%;
-    background-color: #c8d6e5;
+    height: 90vh;
+    background: #c8d6e5;
 }
-.contact-title{
+.contact-head{
     text-align: center;
-    letter-spacing: 4px;
-    font-family: 'Fuzzy Bubbles', cursive;
+    padding-top: 0px;
     color: white;
+    font-family: 'Fuzzy Bubbles', cursive;
 
 }
-.contact-title span{
+.contact-head:first-child span{
     color: red;
-    font-size: 1.2em;
-    font-weight: bolder;
+    font-size: 50px;
+    animation: logo-1 10s linear  infinite;
+}
+.l-11, .la-11{
+    color: red;
     border-bottom: 10px solid red;
     border-radius: 50%;
-}
-.line--00{
-    height: 3px;
-    width: 40%;
-    text-align: center;
-    background-color: red;
-    display: block;
-    margin: 20px auto;
-    border-radius: 50%;
+    font-size: 1.2em;
+   
 }
 
-.cards-head{
-    width: 100%;
-    height: 180px;
+@keyframes logo-1{
+    0%{
+        color: #1abc9c;
+    }
+    25%{
+        color: red;
+    }
+    50%{
+        color: #2ecc71;
+    }
+    75%{
+        color: #3498db;
+    }
+    100%{
+        color: #27f1e4;
+    }
 }
-.cards-head img{
-    width: 100%;
-    height: 180px;
+.mt0{
+    margin-top: 100px;
+}
+.cc-0{
+    width: 30%;
+    height: 130px;
+    box-shadow: 3px 5px 13px grey;
+    margin: auto;
+    border-radius: 20px;
+    background-color: #fff;
+    transition: all 220ms ease-in-out;
+    
+}
+.cc-0:hover{
+    box-shadow: none;
+    scale: 1.05;
 }
 
-
-.r90{
-    width: 100%;
-    height: 80vh;
+.icon-0{
     display: flex;
     justify-content: center;
     align-items: center;
 }
+.icon-00{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-top: -12%;
+    background-color: #c8d6e5;
 
-@media screen and (max-width: 760px)
+    text-align: center;
+    outline: 3px solid aqua;
+    animation: out-0 3s linear 1s infinite ;
+    color: blue;
+}
+@keyframes out-0{
+    0%{
+        outline: 6px solid aqua;
+        box-shadow: 1px 3px 10px red;
+    }
+    25%{
+        outline: 7px dotted gold;
+        box-shadow: 3px 3px 10px aqua;
+        
+
+    }
+    50%{
+        outline: 5px solid #2ecc71;
+        box-shadow: 3px 3px 10px red;
+
+    }
+    75%{
+        outline: 7px solid #3498db;
+        box-shadow: 3px 3px 10px pink;
+
+    }
+    100%{
+        outline: 5px solid aqua;
+        box-shadow: 2px 3px 10px red;
+
+    }
+}
+
+
+.link-01{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 30px;
+}
+.link-01 a{
+    color: #27f1e4;
+    background-color: white;
+    padding: 5px 30px;
+    text-decoration: none;
+    border-radius: 20px;
+    text-transform: capitalize;
+    font-size: 1.4rem;
+    box-shadow: 3px 3px 10px grey;
+    font-family: 'Fuzzy Bubbles', cursive;
+
+
+}
+
+
+.icon-02{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon-002{
+    width: 80px;
+    height: 80px;
+    border-radius: 1px;
+    margin-top: -12%;
+    padding: 3px;
+    text-align: center;
+    outline: 3px solid #c8d6e5;
+    animation: out-0 3s linear 1s infinite ;
+    color: blue;
+    overflow: hidden;
+    background-color: #c8d6e5;
+
+}
+
+.icon-03{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon-003{
+    width: 80px;
+    height: 80px;
+    border-radius: 1px;
+    margin-top: -12%;
+    text-align: center;
+    outline: 3px solid aqua;
+    animation: out-0 3s linear 1s infinite ;
+    color: blue;
+    overflow: hidden;
+    background-color: #c8d6e5;
+    padding: 3px;
+
+}
+
+
+
+@media screen and (max-width:  994px)
+
 {
-    .c90{
-        margin-bottom: 30px;
+.cc-0{
+    width: 45%;
+}
+.cc--3{
+    margin-top: 100px;
+}
+.contact-section-01{
+    height: 100%;
+    padding-bottom: 130px;
+}
+}
+
+@media screen and (max-width:  794px)
+{
+    .cc-0{
+        width: 90%;
     }
 
-    .contact-section {
-        height: 1100px;
-       
+    .icon-00{
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        margin-top: -10%;
+        text-align: center;
+        outline: 3px solid #c8d6e5;
+        animation: out-01 3s linear 1s infinite ;
+        color: blue;
+        padding: 3px;
     }
 
-    .r90{
-        width: 100vw;
-        height: 80vh;
+    .icon-002{
+        width: 80px;
+        height: 80px;
+        margin-top: -10%;
+        text-align: center;
+        outline: 3px solid #c8d6e5;
+        animation: out-01 3s linear 1s infinite ;
+        padding: 3px;
+        color: blue;
+    }
+    .icon-003{
+        width: 80px;
+        height: 80px;
+        margin-top: -10%;
+        text-align: center;
+        outline: 3px solid #c8d6e5;
+        animation: out-01 3s linear 1s infinite ;
+        color: blue;
+        padding: 3px;
+    }
+    .cc--2, .cc--3, .cc--1{
+        margin-top: 60px;
+    }
+}
+
+@media screen and (max-width:  474px)
+{
+    .link-01 {
         display: flex;
         justify-content: center;
         align-items: center;
+        margin-top: 28px;
+    }
+
+    .icon-00{
+        width: 80px;
+        height: 80px;
+        margin-top: -14%;
+        text-align: center;
+        outline: 3px solid #c8d6e5;
+        animation: out-01 3s linear 1s infinite ;
+        color: blue;
+        padding: 3px;
+    } .icon-002{
+        width: 80px;
+        height: 80px;
+        margin-top: -14%;
+        text-align: center;
+        outline: 3px solid #c8d6e5;
+        animation: out-01 3s linear 1s infinite ;
+        color: blue;
+        padding: 3px;
+    } .icon-003{
+        width: 80px;
+        height: 80px;
+        margin-top: -14%;
+        text-align: center;
+        outline: 3px solid #c8d6e5;
+        animation: out-01 3s linear 1s infinite ;
+        color: blue;
+        padding: 3px;
     }
 }
-/* contact info end */
 
+
+
+@media screen and (max-width:  340px)
+{
+    .link-01 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 23px;
+    }
+
+    .icon-00{
+        width: 80px;
+        height: 80px;
+        margin-top: -17%;
+        text-align: center;
+        outline: 3px solid #c8d6e5;
+        animation: out-01 3s linear 1s infinite ;
+        color: blue;
+        padding: 3px;
+    } 
+    .icon-002{
+        width: 80px;
+        height: 80px;
+        margin-top: -17%;
+        text-align: center;
+        outline: 3px solid #c8d6e5;
+        animation: out-01 3s linear 1s infinite ;
+        color: blue;
+        padding: 3px;
+    } 
+    .icon-003{
+        width: 80px;
+        height: 80px;
+        margin-top: -17%;
+        text-align: center;
+        outline: 3px solid #c8d6e5;
+        animation: out-01 3s linear 1s infinite ;
+        color: blue;
+        padding: 3px;
+    }
+}
